@@ -449,6 +449,7 @@ width: calc((100% - 48px) / 3);
 
 .portfolio-item:hover {
   transform: translateY(0%);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .open-card {
@@ -472,7 +473,7 @@ width: calc((100% - 48px) / 3);
   color: #f4f4fd;
 }
 
-.open-card:hover .new-information:hover {
+.open-card:hover .new-information:hover .portfolio-item:hover {
   transform: translateY(0%);
 }
 
