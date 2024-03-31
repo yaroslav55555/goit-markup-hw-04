@@ -185,13 +185,13 @@ margin-left: auto;
 
 .box-hero-image {
   box-sizing: content-box;
-background: #2e2f42;
-padding: 188px 0;
- background-image: url(../images/heroimage.png);
+  background: #2e2f42;
+  padding: 188px 0;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/heroimage.png);
+  background-image: url(../images/heroimage.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/heroimage.png);
   max-width: 1440px;
   margin: auto;
 }
