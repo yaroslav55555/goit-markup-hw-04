@@ -68,11 +68,11 @@ display: flex;
   gap: 40px;
 }
 .menu-nav-index {display: block;
-  padding: 24px 0;
+  padding: 24px 0; 
 }
 
 .logo {
-font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
@@ -107,7 +107,6 @@ gap: 40px;
 .email-telefon {
     background: #ffffff;
     color: #434455;
-    margin-right: 40px;
     text-decoration: none;
      transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -118,7 +117,7 @@ gap: 40px;
 
   /* .menu-nav-index */
   .menu-nav-index{
-    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -197,6 +196,8 @@ margin-left: auto;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 48px;
   max-width: 496px;
   margin: 0 auto;
@@ -362,6 +363,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+margin-bottom: 8px;
 }
 
 .social-masager {
@@ -370,9 +372,6 @@ color: #434455;
   justify-content: center;
   flex-direction: row;
   gap: 24px;
-  width: 232px;
-  height: 40px;
-  margin-left: 16px;
 }
 
 .sosial-icon {
@@ -527,12 +526,7 @@ max-width: 264px;
 }
 
 .media-box {
-  width: 208px;
-  height: 80px;
-  margin-top: 110px;
-  margin-bottom: 122px;
-  margin-left: 120px;
-  margin-right: 120px;
+  
 }
 
 .text-social-media {
@@ -547,11 +541,6 @@ max-width: 264px;
 
 .social-masager-footer {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  width: 232px;
-  height: 40px;
   gap: 16px;
 }
 
